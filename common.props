@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Version>0.1.0-preview</Version>
+    <NoWarn>$(NoWarn);CS1591;CS0436</NoWarn>
+    <PackageProjectUrl>https://github.com/abptaiwan/twabp</PackageProjectUrl>
+    <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/abptaiwan/twabp</RepositoryUrl>
+    <PackageReadmeFile>NuGet.md</PackageReadmeFile>
+    <PackageTags>twabp abp framework aspnetcore dotnet</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)NuGet.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>

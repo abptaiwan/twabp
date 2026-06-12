@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TwAbp.Abp.Core/TwAbp.Abp.Core.csproj" />
+    <Project Path="src/TwAbp.Abp/TwAbp.Abp.csproj" />
+  </Folder>
+</Solution>
